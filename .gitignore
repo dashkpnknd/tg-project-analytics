@@ -3,3 +3,15 @@ data/
 __pycache__/
 *.pyc
 .venv/
+
+# Local runtime files
+venv/
+sessions/
+backups/
+*.bak*
+*.log
+*.session*
+*.sqlite*
+*.db*
+.env.*
+!.env.example
